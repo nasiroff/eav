@@ -1,0 +1,39 @@
+{
+    "name": "nasiroff/eav",
+    "description": "Eav For Artisan.",
+    "keywords": ["eav", "laravel"],
+    "license": "MIT",
+    "require": {
+        "illuminate/database": "^11.0",
+        "league/csv":"^9.0",
+        "laravel/legacy-factories": "^1.4",
+        "sunel/json-api-resources":">=0.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.0",
+        "fzaninotto/faker": "~1.4"
+    },
+    "authors": [
+        {
+            "name": "Sunel TR",
+            "email": "sunelbe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Eav\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eav\\TestCase\\" : "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eav\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    }
+}

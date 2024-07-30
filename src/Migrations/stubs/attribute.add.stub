@@ -1,0 +1,17 @@
+			
+			Attribute::add([
+				'attribute_code' => 'ATTRIBUTECODE',
+				'entity_code' => 'ENTITYCODE',
+				'backend_class' => 'BACKENDCLASS',
+				'backend_type' => 'BACKENDTYPE',
+				'backend_table' =>  'BACKENDTABLE',
+				'frontend_class' =>  'FRONTENDCLASS',
+				'frontend_type' => 'FRONTENDTYPE',
+				'frontend_label' => 'FRONTENDLABEL',
+				'source_class' =>  'SOURECCLASS',
+				'default_value' => 'DEFAULTVALUE',
+				'is_required' => ISREQUIRED,
+				'is_filterable' => ISFILTERABLE,
+				'is_searchable' => ISSEARCHABLE,
+				'required_validate_class' =>  'VALIDATIONCLASS'	
+			]);
